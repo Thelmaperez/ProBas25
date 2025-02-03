@@ -36,8 +36,8 @@ print("Hola Mundo")
 #Actividad 2:
 from fractions import Fraction
 from decimal import Decimal 
-a = 1 #int(input("Ingrese el primer numero: "))
-b = 5 #int(input("Ingrese el segundo numero: "))
+a = 4 #int(input("Ingrese el primer numero: "))
+b = 2 #int(input("Ingrese el segundo numero: "))
 
 print("adición = ",a + b)
 print("sustracción = ",a - b)
