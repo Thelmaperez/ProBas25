@@ -1,10 +1,7 @@
-#Problema 11
+def es_palindromo(texto):
 
-print("Verificar si una cadena de un palíndromo")
+    texto = texto.lower().replace(" ", "")
+    return texto == texto[::-1]
 
-def es_palindromo(cadena):
- cadena = cadena.lower()
- return cadena == cadena[::-1]
-
-print(es_palindromo("uva"))
-
+entrada = input("Ingresa una palabra o frase: ")
+print("Es un palíndromo." if es_palindromo(entrada) else "No es un palíndromo.")
